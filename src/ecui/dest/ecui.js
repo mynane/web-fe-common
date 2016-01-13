@@ -8035,7 +8035,7 @@ MagicDecorator - 九宫格扩展装饰器，将区域分为"左上-上-右上-�
             core.esr.loadClass = function (filename) {
                 document.write('<script type="text/javascript" src="' + name + '/class.' + filename + '.js"></script>');
             };
-            core.esr.loadRoute = function (filename) {console.log(name);
+            core.esr.loadRoute = function (filename) {
                 document.write('<script type="text/javascript" src="' + name + '/route.' + filename + '.js"></script>');
                 document.write('<link rel="stylesheet/less" type="text/css" href="' + name + '/route.' + filename + '.css" />');
                 core.pause();
